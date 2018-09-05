@@ -31,6 +31,7 @@
             this.VerticalMenu = new System.Windows.Forms.Panel();
             this.TabControl = new System.Windows.Forms.TabControl();
             this.Cita = new System.Windows.Forms.TabPage();
+            this.DG = new System.Windows.Forms.DataGridView();
             this.BTNQueryCitas = new System.Windows.Forms.Button();
             this.GroupBoxCita = new System.Windows.Forms.GroupBox();
             this.LVCitasSubrogados = new System.Windows.Forms.ListView();
@@ -44,7 +45,6 @@
             this.Procedencia = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Coordinacion = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.DG = new System.Windows.Forms.DataGridView();
             this.TabControl.SuspendLayout();
             this.Cita.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DG)).BeginInit();
@@ -84,6 +84,15 @@
             this.Cita.Text = "Cita subrogada";
             this.Cita.UseVisualStyleBackColor = true;
             // 
+            // DG
+            // 
+            this.DG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DG.Location = new System.Drawing.Point(38, 200);
+            this.DG.Name = "DG";
+            this.DG.RowTemplate.Height = 28;
+            this.DG.Size = new System.Drawing.Size(470, 84);
+            this.DG.TabIndex = 4;
+            // 
             // BTNQueryCitas
             // 
             this.BTNQueryCitas.Location = new System.Drawing.Point(535, 200);
@@ -115,10 +124,11 @@
             this.Empresa,
             this.Procedencia,
             this.Coordinacion});
+            this.LVCitasSubrogados.FullRowSelect = true;
             this.LVCitasSubrogados.GridLines = true;
-            this.LVCitasSubrogados.Location = new System.Drawing.Point(26, 391);
+            this.LVCitasSubrogados.Location = new System.Drawing.Point(26, 318);
             this.LVCitasSubrogados.Name = "LVCitasSubrogados";
-            this.LVCitasSubrogados.Size = new System.Drawing.Size(709, 55);
+            this.LVCitasSubrogados.Size = new System.Drawing.Size(709, 164);
             this.LVCitasSubrogados.TabIndex = 1;
             this.LVCitasSubrogados.UseCompatibleStateImageBehavior = false;
             this.LVCitasSubrogados.View = System.Windows.Forms.View.Details;
@@ -174,15 +184,6 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // DG
-            // 
-            this.DG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DG.Location = new System.Drawing.Point(38, 200);
-            this.DG.Name = "DG";
-            this.DG.RowTemplate.Height = 28;
-            this.DG.Size = new System.Drawing.Size(470, 140);
-            this.DG.TabIndex = 4;
             // 
             // Frame
             // 

@@ -21,7 +21,7 @@ namespace App_2
             String port = "5432";
             String database = "Prueba";
             */
-            return "Username = postgres; Password = postgres; Host = localhost; Port = 5432; Database = Prueba ";
+            return "Username = postgres; Password = postgres; Host = localhost; Port = 5432; Database = Prueba";
             //return "User ID = " + userID + "; Password = " + password + "; Host = " + host + "; Port = " + port + "; Database = " + database;
         }
     }
